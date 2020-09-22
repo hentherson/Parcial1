@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/menu"
+        android:icon="@drawable/ic_baseline_menu_24"
+        app:showAsAction="ifRoom"
+        android:title="Menu de Opciones">
+
+        <menu>
+            <item android:id="@+id/SalarioAuto"
+                android:title="Salario Mínimo"/>
+
+            <item android:id="@+id/BorrarDatos"
+                android:title="Borrar Datos"/>
+        </menu>
+    </item>
+</menu>
